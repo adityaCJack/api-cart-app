@@ -1,0 +1,78 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #e4e4e4;
+}
+
+.category-links {
+  text-decoration: none;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  color: #fff;
+  width: 100%;
+  text-transform: capitalize;
+}
+
+/* Navbar styles */
+
+.my-nav {
+  background: #222;
+}
+
+.my-nav a {
+  color: #fff;
+}
+
+.my-nav a:focus {
+  color: #fff;
+}
+
+.btn-cart:hover {
+  background: #fff;
+}
+
+.my-nav ul {
+  list-style: none;
+}
+
+.my-nav ul a {
+  color: #fff;
+}
+
+.my-nav ul a:hover {
+  color: #c3073f;
+}
+
+/* Cart page styling */
+
+.my-cart p {
+  color: #000;
+}
+
+.my-cart button {
+  text-decoration: none;
+}
+
+.grand-total {
+  text-decoration: none;
+  color: #000;
+  font-size: 2em;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Media queries */
+
+@media (max-width: 992px) and (min-width: 576px) {
+  .my-cart p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 340px) {
+  .my-card h5 {
+    font-size: 15px;
+  }
+}
